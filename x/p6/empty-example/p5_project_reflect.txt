@@ -1,0 +1,15 @@
+                                REFLECTION
+     Ideally the project we submitted isn't really finished but does do for the most part things which would make the game playable.
+The beginning of our pair project all starts with two bubbles and building from there. The point of our game is basically to have
+two bubbles on the opposite side to shoot at each other and basically destroy one another. "I" being specific since for the most part
+I did the work created two bubbles and started to watch Daniel Shiffman on how he made space invaders to make it move and shoot. Since we
+are working together again I am literally going to make him do most of the work since for the most part he sat there staring at my screen
+even though I told him things to do. A issue I was having was moving the two bubbles up and down as the Daniel Shiffman video was a bit misleading.
+The issue I was having was that it was accepting the value but not pushing it through to make it move. To solve, I was surprised that there were
+other ascii for these buttons to move up and down so I went on a specific website which tells p5 ascii and found the values for them. The other issue
+where I had to rethink, things is to make something shoot, the coordinates to make them shoot came out at extremely high values. With some help, I changed
+some coding from a function to a class which works better and fixed the coding. The hardest part of the coding was of course the shooting code. Initially I
+made a function for this which apparently isn't the right way to go. Changing it to a class with the help of others I, using the keypress function made it
+so that when I pressed a button, through drops.push(drop) which pushes and creates the bubbles out like bullets made to move. It is moved through the class
+which has a move function adding coordinates to a defined x coordinate of a bubble. Then I made it so it will appear and move through the draw function and
+its done.
